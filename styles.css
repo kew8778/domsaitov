@@ -277,6 +277,8 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+.footer__contact-block {
     margin-bottom: 80px;
 }
 .logo_footer svg path {
@@ -314,10 +316,12 @@
 }
 .footer__columns {
     display: flex;
-    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-right: -107px;
 }
 .footer__column {
-    margin-left: 107px;
+    margin-bottom: 80px;
+    margin-right: 107px;
 }
 .column__title {
     margin-bottom: 24px;
