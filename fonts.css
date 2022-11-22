@@ -1,0 +1,74 @@
+.font-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+.font-h1 {
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 75px;
+}
+.font-h2 {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+}
+.font-h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+.font-button-1 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+.font-button-2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+.font-caption {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+.font-menu-up {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.font-phone {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+.font-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+.font-search {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+.font-text-key {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+}
+.font-footer {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+.font-footer-bottom {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+}

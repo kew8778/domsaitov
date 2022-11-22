@@ -1,0 +1,30 @@
+@media (min-width: 1600px) {
+    .cover__block {
+        width: 75%;
+        margin: 0 auto; 
+    }
+}
+@media (max-width: 1028px) {
+    .menu-up__text {
+        display: none;
+    }
+}
+@media (max-width: 675px) {
+    .menu-up {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .logo {
+        padding-right: 0;
+        margin-bottom: 10px;
+    }
+} 
+@media (max-width: 435px) {
+    .contact-us {
+        flex-direction: column;
+    }
+    .tel {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
