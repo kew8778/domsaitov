@@ -347,5 +347,6 @@
 .footer__content-bottom {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     opacity: 0.3;
 }
