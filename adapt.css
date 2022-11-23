@@ -1,7 +1,6 @@
 @media (min-width: 1600px) {
-    .cover__block {
-        width: 75%;
-        margin: 0 auto; 
+    .page__block, .page__block_main {
+        width: 75%; 
     }
 }
 @media (max-width: 1028px) {
