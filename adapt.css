@@ -1,6 +1,22 @@
-@media (min-width: 1600px) {
+@media (max-width: 1600px) {
     .page__block, .page__block_main {
-        width: 75%; 
+        width: 93.75%; 
+    }
+}
+@media (max-width: 1279px) {
+    .dropdown-development {
+        display: block;
+    }
+    .nav__link-development {
+        display: none;
+    }
+}
+@media (max-width: 1023px) {
+    .dropdown-company {
+        display: block;
+    }
+    .nav__link-company {
+        display: none;
     }
 }
 @media (max-width: 1028px) {
@@ -41,5 +57,8 @@
     } 
     .font-button-1 {
         font-size: 16px;
+    }
+    .cover-content__button_1 {
+        margin-right: 0;
     }
 }

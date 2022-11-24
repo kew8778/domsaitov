@@ -10,12 +10,12 @@
     background: rgba(255, 255, 255, 1);
 }
 .page__block {
-    width: 93.75%;
+    width: 75%;
     max-width: 1200px;
     margin: 0 auto; 
 }
 .page__block_main {
-    width: 93.75%;
+    width: 75%;
     max-width: 1200px;
     margin: 120px auto;
 }
@@ -102,6 +102,12 @@
 .dropdown-logo {
     padding-left: 4px;
     padding-bottom: 2px;
+}
+.dropdown-development {
+    display: none;
+}
+.dropdown-company {
+    display: none;
 }
 .search {
     height: 78px;
