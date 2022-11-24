@@ -171,7 +171,7 @@
     -webkit-backdrop-filter: blur(1px);
 }
 .cover-content__frame {
-    width: 780px;
+    max-width: 780px;
 }
 .cover-content__h1 {
     margin-bottom: 28px;
@@ -186,6 +186,7 @@
     border-radius: 100px;
     color: rgba(255, 255, 255, 1);
     border: 1px solid rgba(255, 89, 0, 1);
+    margin-bottom: 32px;
 }
 .cover-content__button_1 {
     margin-right: 32px;
