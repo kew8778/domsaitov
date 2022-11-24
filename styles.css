@@ -11,10 +11,12 @@
 }
 .page__block {
     width: 93.75%;
+    max-width: 1200px;
     margin: 0 auto; 
 }
 .page__block_main {
     width: 93.75%;
+    max-width: 1200px;
     margin: 120px auto;
 }
 
@@ -209,18 +211,21 @@
 .orange-text {
     color: rgba(255, 89, 0, 1);
 }
+.block-anti {
+    overflow: hidden;
+}
 .cards {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 0 -40px -40px;
+    margin: 0 -40px -40px 0;
 }
 .card {
     box-sizing: border-box;
     width: 360px;
     padding: 40px 32px;
-    margin: 0 40px 40px;
+    margin: 0 40px 40px 0;
     color: rgba(255, 255, 255, 1);
 }
 .card-1 {
@@ -252,11 +257,15 @@
     width: 100%;
 }
 .lines {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
     margin-bottom: 40px;
 }
 .line {
     box-sizing: border-box;
-    width: 30%;
+    width: 360px;
     padding: 15px 0;
     color: rgba(51, 51, 51, 1);
     display: flex;
@@ -267,7 +276,11 @@
 .line__svg {
     margin-bottom: 16px;
 }
-.line__end {
+.line-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
     margin-bottom: 0;
 }
 
@@ -280,9 +293,11 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 .footer__contact-block {
     margin-bottom: 80px;
+    margin-right: 107px;
 }
 .logo_footer svg path {
     fill: rgba(255, 255, 255, 1);
