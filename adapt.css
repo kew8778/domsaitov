@@ -26,7 +26,7 @@
     }
     .search__input {
         width: 63.75vw;
-        margin: 23px 3.125vw;
+        margin-left: 3.125vw;
     }
     .font-h1 {
         font-size: 51px;
@@ -48,6 +48,7 @@
     }
     .dropdown-menu {
         position: static;
+        margin: 0 auto;
     }
     .dropdown__link {
         text-align: center;
