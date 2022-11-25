@@ -80,11 +80,3 @@
         margin-right: 0;
     }
 }
-@media (hover: none) {
-    .dropdown__link {
-        pointer-events: none;
-    }
-    .dropdown:hover .dropdown__link {
-        pointer-events: auto;
-    }
-}
