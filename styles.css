@@ -10,12 +10,12 @@
     background: rgba(255, 255, 255, 1);
 }
 .page__block {
-    width: 75%;
+    width: 93.75%;
     max-width: 1200px;
     margin: 0 auto; 
 }
 .page__block_main {
-    width: 75%;
+    width: 93.75%;
     max-width: 1200px;
     margin: 120px auto;
 }
@@ -117,7 +117,7 @@
     z-index: 1;
     border-top: 1px solid transparent;
 }
-.dropdown-menu-development {
+.dropdown-menu-company {
     right: 0;
     margin-right: 3.125%;
 }
@@ -227,7 +227,7 @@
 .cards {
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: center;
     flex-wrap: wrap;
     margin: 0 -40px -40px 0;
 }
@@ -272,10 +272,10 @@
 .lines {
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: center;
     flex-wrap: wrap;
     margin-bottom: -40px;
-    margin-right: -60px;
+    margin-right: -40px;
 }
 .line {
     box-sizing: border-box;
@@ -287,7 +287,7 @@
     align-items: center;
     text-align: center;
     margin-bottom: 40px;
-    margin-right: 60px;
+    margin-right: 40px;
 }
 .line__svg {
     margin-bottom: 16px;

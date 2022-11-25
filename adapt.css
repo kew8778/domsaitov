@@ -1,14 +1,12 @@
-@media (max-width: 1599px) {
-    .page__block, .page__block_main {
-        width: 93.75%; 
-    }
-}
 @media (max-width: 1279px) {
     .dropdown-development {
         display: block;
     }
     .nav__link-development {
         display: none;
+    }
+    .headline-2 {
+        text-align: center;
     }
 }
 @media (max-width: 1023px) {
@@ -42,6 +40,19 @@
         margin-bottom: 26px;
     }
 }
+@media (max-width: 599px) {
+    .nav {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+    .dropdown-menu {
+        position: static;
+    }
+    .dropdown__link {
+        text-align: center;
+    }
+}
 @media (max-width: 479px) {
     .contact-us {
         flex-direction: column;
@@ -67,5 +78,13 @@
     }
     .cover-content__button_1 {
         margin-right: 0;
+    }
+}
+@media (hover: none) {
+    .dropdown__link {
+        pointer-events: none;
+    }
+    .dropdown:hover .dropdown__link {
+        pointer-events: auto;
     }
 }
