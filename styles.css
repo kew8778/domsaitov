@@ -145,16 +145,18 @@
     display: none;
     position: absolute;
     right: 0;
-    width: calc(50% - 30px);
+    width: 50%;
     z-index: 1;
+    margin-top: -3.5px;
+}
+.search__form {
     border-top: 1px solid transparent; 
     background: rgba(255, 255, 255, 0.8);
     background-size: cover;
-    margin-top: -3.5px;
+    margin-left: 30px;
 }
 .search__input {
-    width: calc(46.875vw - 62px);
-    max-width: 538px;
+    width: 538px;
     padding: 8px 0 10px;
     margin: 23px 0 23px 32px;
     border: none;

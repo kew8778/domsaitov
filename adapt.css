@@ -5,6 +5,16 @@
     .nav__link-development {
         display: none;
     }
+    .search__block {
+        width: 50%;
+    }
+    .search__form {
+        margin-left: 0;
+    }
+    .search__input {
+        width: 43.75vw;
+        margin-left: 3.125vw;
+    }
     .headline-2 {
         text-align: center;
     }
@@ -26,7 +36,6 @@
     }
     .search__input {
         width: 63.75vw;
-        margin-left: 3.125vw;
     }
     .font-h1 {
         font-size: 51px;
