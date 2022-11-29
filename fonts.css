@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;0,800;1,400;1,500;1,700;1,800&display=swap');
 
+.font-menu-up {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.font-phone {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+.font-button-2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
 .font-text {
     font-weight: 500;
     font-size: 16px;
@@ -27,24 +42,9 @@
     font-size: 18px;
     line-height: 22px;
 }
-.font-button-2 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-}
 .font-caption {
     font-weight: 500;
     font-size: 14px;
-    line-height: 20px;
-}
-.font-menu-up {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-}
-.font-phone {
-    font-weight: 600;
-    font-size: 16px;
     line-height: 20px;
 }
 .font-link {

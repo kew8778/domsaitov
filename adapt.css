@@ -26,7 +26,7 @@
     .nav__link-company {
         display: none;
     }
-    .menu-up__text {
+    .menu-up__slogan {
         display: none;
     }
 }
@@ -45,7 +45,6 @@
         flex-direction: column;
     }
     .logo {
-        padding-right: 0;
         margin-bottom: 26px;
     }
 }

@@ -15,8 +15,6 @@
     margin: 0 auto; 
 }
 .page__block_main {
-    width: 93.75%;
-    max-width: 1200px;
     margin: 120px auto;
 }
 
@@ -29,15 +27,9 @@
     padding: 26px 0;
     color:rgba(33, 33, 33, 0.7);
 }
-.logo {
-    padding-right: 40px;
-}
-.logo-svg {
-    width: 185px;
-    height: 48px;
-}
-.menu-up__text {
+.menu-up__slogan {
     width: 331px;
+    padding-left: 40px;
 }
 .contact-us {
     display: flex;
@@ -55,10 +47,10 @@
     color: rgba(255, 89, 0, 1);
     background: none;
 }
-.contact-us__button {
+.button-2_icon-true {
     padding: 15px 27px;
 }
-.contact-us__button-frame {
+.button-2__frame {
     display: flex;
     flex-direction: row;
     align-items: center;   
@@ -71,7 +63,7 @@
     background-color: rgba(202, 70, 0, 1);
     color: rgba(255, 255, 255, 1);
 }
-.contact-us__button:hover .logo-phone__svg-path {
+.button-2_icon-true:hover .logo-phone__svg-path {
     stroke: rgba(255, 255, 255, 1);
 }
 
